@@ -1,6 +1,6 @@
-# La modalidad que elegi fue la modalidad Jr. 
-#Tome como archivo original el que nos dio la catedra
-#Sobre ese archivo aplique cambios en FE Historico, aplique reduccion de la dimensionalidad con canaritos asesinos, el undersampling del 1 lo cambie a 0.5, en la optimizacion bayesiana puse un learning rate de 0.005, eraly stopping de 1000 y num iterations de 9999
+# La modalidad elegida fue la Jr. (Workflow_01_junior)
+#Tome como archivo original/base el que nos brindo la catedra.
+#Sobre ese archivo aplique cambios en FE Historico, aplique reduccion de la dimensionalidad con canaritos asesinos, el undersampling del 1 lo cambie a 0.5, en la optimizacion bayesiana puse un learning rate de 0.005, early stopping de 1000 y num iterations de 9999...
 #Esto lo hice con 6 semillas. 
 #Para seleccionar el submit en kaggle lo que hice fue para cada experimento de 6 semillas cada uno, me arme una tabla, donde en las filas iban los resultados que iba obteniendo con cada semilla y en las columnas los numeros de envios
 #calcule el promedio y el desvio para cada valor de envio, y me quede para cada experimento con el envio que tenia menor desvio y una ganancia razonable. 
